@@ -9,8 +9,8 @@ node {
    }
    
    stage('Compile-Test'){
-         def mvn =  tool name: 'Maven_Home', type: 'maven'
-	   sh "${mvn} test"
+          tool name: 'Maven_Home', type: 'maven'
+	   sh 'mvn test'
 	 }
       
    }
