@@ -4,8 +4,7 @@ node {
    stage('SCM Checkout'){
     // Clone repo
 	git branch: 'branch2', 
-	credentialsId: 'github', 
-	 url: 'https://github.com/NoBody555/automation'
+     url: 'https://github.com/NoBody555/automation'
    
    }
    
