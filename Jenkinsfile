@@ -11,7 +11,7 @@ node {
    
    stage('TestMvn'){
          def mvn =  tool name: 'Maven_Home', type: 'maven'
-	   sh "${mvn}/bin/mvn test
+	   sh "${mvn}/bin/mvn test"
 	 }
       
    }
